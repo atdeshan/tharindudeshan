@@ -2,6 +2,9 @@
   "name": "my_react",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gitnameatdeshan.github.io/tharindudeshan",
+  "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
   "type": "module",
   "scripts": {
     "dev": "vite",
