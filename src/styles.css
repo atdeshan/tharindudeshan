@@ -104,3 +104,27 @@ nav ul li:hover {
 h1, h2, h3, h4, h5, h6 ,p{
     color: white;
 }
+@media (max-width: 768px) {
+    .home {
+      flex-direction: column; /* Stack content vertically */
+      text-align: center; /* Center align content */
+      padding: 1em;
+    }
+  
+    .home img {
+      max-width: 100%; /* Make image fit the screen */
+    }
+  
+    .home h1 {
+      font-size: 2em; /* Adjust font size for smaller screens */
+    }
+  
+    .home h2 {
+      font-size: 1.5em; /* Adjust font size */
+    }
+  
+    .home p {
+      font-size: 1em;
+      line-height: 1.5em; /* Adjust spacing for better readability */
+    }
+  }

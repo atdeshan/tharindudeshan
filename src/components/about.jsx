@@ -16,8 +16,8 @@ export default function About() {
   return (
     <div className="about">
       <div>
-        <h1 style={{ fontSize: "3em",textAlign:"center" }}>About me</h1>
-        <p style={{fontSize :"1.5em", marginTop:"7em",textAlign:"center",letterSpacing:"2px",lineHeight:"2em"}}>
+        <h1 style={{ fontSize: "3em",textAlign:"center",marginTop:"1em" }}>About me</h1>
+        <p style={{fontSize :"1.5em", marginTop:"3em",textAlign:"center",letterSpacing:"2px",lineHeight:"2em"}}>
           Hello! I’m Deshan, a passionate undergraduate student currently
           pursuing my degree in Bachelor of Information and Communication
           Technology (BICT) Honours Degree at University Of Kelaniya. With a
@@ -41,6 +41,9 @@ export default function About() {
           <FaDatabase />
         </div>
       </div>
+      {/* <h1 style={{ marginTop: "1em",textAlign:"center",fontSize:"3em" }}>Projects</h1>
+      <div className="projects">
+      </div> */}
     </div>
   );
 }
