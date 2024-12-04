@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import About from "./components/about";
 import Home from "./components/home";
 import Header from "./components/header";
@@ -8,7 +8,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <Router basename="/tharindudeshan/">
+    <Router>
       <Header />
 
       <Routes>
