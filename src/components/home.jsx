@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Fotter from "./footer";
-import LaptopImg from "../assets/laptop.png";
+import LaptopImg from "/assets/laptop.png";
 export default function Home() {
   return (
     <div>
