@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./header";
 import Fotter from "./footer";
-
+import LaptopImg from "../assets/laptop.png";
 export default function Home() {
   return (
     <div>
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
         </div>
         <div>
-          <img src="src/assets/laptop.png" width="750px" alt="hero" />
+          <img src={LaptopImg} width="750px" alt="hero"  />
           
         </div>
       </div>
