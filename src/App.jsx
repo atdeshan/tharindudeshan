@@ -12,8 +12,8 @@ export default function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/tharindudeshan/" element={<Home />} />
+        <Route path="/tharindudeshan/about" element={<About />} />
         
       </Routes>
 
