@@ -8,17 +8,15 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/tharindudeshan">  {/* Set the basename */}
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        
+        <Route path="/" element={<Home />} />  {/* Home path */}
+        <Route path="/about" element={<About />} />  {/* About path */}
       </Routes>
 
       <Fotter />
     </Router>
-    
   );
 }
