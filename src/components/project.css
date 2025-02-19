@@ -1,0 +1,88 @@
+.project-container {
+    margin-top: 5em;
+    margin-bottom: 1em;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .project-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  /* Highlighted Projects */
+  .highlighted-projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+    
+  }
+  
+  .video-item.highlight {
+    background:#1a1a32;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(130, 185, 230, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 20px;
+  }
+  
+  .video-item.highlight:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+  }
+  
+  .video-description {
+    padding: 15px;
+    font-size: 1.2em;
+    color: #f6f1f1;
+    text-align: left;
+    background: #1a1a32;
+    border-top: 1px solid #ddd;
+    margin: 0;
+  }
+  
+  .video-description.highlight {
+    font-size: 1.5em;
+    color: #ffffff;
+    background: transparent;
+  }
+  
+  /* Standard Projects */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .video-item {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .video-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+  }
+  
+  .video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+ 

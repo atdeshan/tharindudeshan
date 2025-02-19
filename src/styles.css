@@ -16,11 +16,17 @@ html, body {
     justify-content: space-between;
     align-items: center;
 }
-.home {
+.home{
     margin-top: 10em;
     margin-bottom: 1em;
     display: flex;
     justify-content: space-between;
+}
+
+.project{
+    margin-top: 10em;
+    margin-bottom: 1em;
+    
 }
 .nav {
     display: flex;
@@ -33,7 +39,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 1em;
+    margin-top: auto;
 
     background-color: rgba(8, 131, 149,.2);
 
@@ -77,15 +83,18 @@ nav ul {
 }   
 
 nav ul li {
+    width:3em;
+    text-align: center;
     margin: .5em;
     font-size: 1.5em;
-    background-color:rgba(55, 183, 195,0.1);
-    border-radius: 1em;
-    padding: 12px
+    background-color:rgb(255, 255, 255);
+    border-radius: 1.5em;
+    padding: 16px;
+    
 }
 
 nav ul li a {
-    color: rgb(8, 131, 149);
+    color: rgba(255, 119, 0, 0.851);
     text-decoration: none;
     
 }
